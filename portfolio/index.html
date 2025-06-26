@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="tsparticles" class="fixed top-0 left-0 w-full h-full -z-10"></div>
 
 
 
@@ -44,7 +43,7 @@
             <a href="https://www.facebook.com/ryan.fontenele.399/"><i class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com/fontenele.barber/"><i class='bx bxl-instagram-alt' ></i></a>
             <a href="https://www.linkedin.com/in/ryan-fontenele/"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://github.com/DevFontenele"><i class='bx bxl-github' ></i>
+            <a href="https://github.com/DevFontenele"><i class='bx bxl-github' ></i></a>
           </div>
 
         <a href="curriculo/curriculo.pdf" class="btn">Download CV</a>
@@ -226,93 +225,7 @@
 
     
     <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    tsParticles.load("tsparticles", {
-      background: {
-        color: "#1f242d"
-      },
-      fpsLimit: 60,
-      particles: {
-        number: {
-          value: 50,
-          density: {
-            enable: true,
-            area: 800
-          }
-        },
-        color: {
-          value: "#0ef"
-        },
-        shape: {
-          type: "circle"
-        },
-        opacity: {
-          value: 0.6,
-          random: true,
-          anim: {
-            enable: true,
-            speed: 1,
-            opacity_min: 0.2,
-            sync: false
-          }
-        },
-        size: {
-          value: 3,
-          random: { enable: true, minimumValue: 1 },
-          anim: {
-            enable: true,
-            speed: 5,
-            size_min: 0.5,
-            sync: false
-          }
-        },
-        move: {
-          enable: true,
-          speed: 2,
-          direction: "none",
-          random: true,
-          straight: false,
-          outModes: "out",
-          bounce: false,
-        },
-        line_linked: {
-          enable: true,
-          distance: 150,
-          color: "#0ef",
-          opacity: 0.4,
-          width: 1
-        }
-      },
-      interactivity: {
-        events: {
-          onHover: {
-            enable: true,
-            mode: "grab"
-          },
-          onClick: {
-            enable: true,
-            mode: "push"
-          },
-          resize: true
-        },
-        modes: {
-          grab: {
-            distance: 140,
-            line_linked: {
-              opacity: 1
-            }
-          },
-          push: {
-            quantity: 4
-          }
-        }
-      },
-      detectRetina: true
-    });
-  });
-</script>
+     
 
 </body>
 </html>

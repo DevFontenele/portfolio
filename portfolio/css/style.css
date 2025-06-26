@@ -53,6 +53,9 @@ section{
    font-weight: 600;
    cursor: default;
 }
+.navbar {
+    transition: all 0.3s ease;
+}
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -262,6 +265,7 @@ span {
     padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
+    box-shadow: 0 0 2rem rgba(0, 255, 255, 0.2);
 }
 .portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
@@ -333,9 +337,9 @@ span {
     padding: 2rem 9%;
     background-color: var(--second-bg-color);
 }
-.footer text p {
+.footer-text p {
     font-size: 1.6rem;
-}
+} 
 .footer-iconTop a {
     display: inline-flex;
     justify-content: center;
@@ -356,7 +360,7 @@ span {
 
 
 @media (max-width:1200px){
-    hmtl {
+    html {
         font-size: 55%;
     }
 }

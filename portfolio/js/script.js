@@ -38,7 +38,7 @@ window.onscroll = () => {
 
 
 ScrollReveal({
-    //  reset: true,
+     reset: true,
      distance: '80px',
      duration: 2000,
      delay: 200
@@ -58,86 +58,4 @@ const typed = new Typed('.multiple-text', {
     backSpeed: 100,
     backDelay: 1000,
     loop:true
-});
-tsParticles.load("tsparticles", {
-  background: {
-    color: "#1f242d" // sua cor de fundo escuro
-  },
-  fpsLimit: 60,
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        area: 800,
-      }
-    },
-    color: {
-      value: "#0ef" // azul neon
-    },
-    shape: {
-      type: "circle"
-    },
-    opacity: {
-      value: 0.6,
-      random: true,
-      anim: {
-        enable: true,
-        speed: 1,
-        opacity_min: 0.2,
-        sync: false
-      }
-    },
-    size: {
-      value: 3,
-      random: { enable: true, minimumValue: 1 },
-      anim: {
-        enable: true,
-        speed: 5,
-        size_min: 0.5,
-        sync: false
-      }
-    },
-    move: {
-      enable: true,
-      speed: 2,
-      direction: "none",
-      random: true,
-      straight: false,
-      outModes: "out",
-      bounce: false,
-    },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#0ef",
-      opacity: 0.4,
-      width: 1
-    }
-  },
-  interactivity: {
-    events: {
-      onHover: {
-        enable: true,
-        mode: "grab"
-      },
-      onClick: {
-        enable: true,
-        mode: "push"
-      },
-      resize: true
-    },
-    modes: {
-      grab: {
-        distance: 140,
-        line_linked: {
-          opacity: 1
-        }
-      },
-      push: {
-        quantity: 4
-      }
-    }
-  },
-  detectRetina: true
 });
